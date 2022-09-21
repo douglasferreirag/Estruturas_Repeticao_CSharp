@@ -2,15 +2,68 @@
 using OperadoresAritmeticosCSharp.Models;
 
 
-
 int numero = 5;
+int contador = 0;
+while(contador <= 10){
 
-for (int contador = 0; contador <= 10; contador ++){
+        Console.WriteLine($"{contador}ª  * Execução: {numero} x contador = {numero * contador}");
 
-    Console.WriteLine($"{numero} * contador = {numero * contador}");
-
+        contador++;
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int numero = 5;
+
+// for (int contador = 0; contador <= 10; contador ++){
+
+//     Console.WriteLine($"{numero} x contador = {numero * contador}");
+
+
+// }
 
 
 
