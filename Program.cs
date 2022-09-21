@@ -5,7 +5,9 @@ using OperadoresAritmeticosCSharp.Models;
 
 string? opcao ;
 
-while(true){
+bool exibirMenu = true;
+
+while(exibirMenu){
 
   Console.Clear();
 
@@ -37,7 +39,8 @@ while(true){
       case "4":
 
           Console.WriteLine("Encerrar");
-          Environment.Exit( 0);
+          exibirMenu = false;
+         // Environment.Exit(0);
           break;
 
       default:
